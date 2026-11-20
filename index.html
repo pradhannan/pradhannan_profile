@@ -1,13 +1,208 @@
+
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name = "viewport" content="width-device-width,initialscale=1.0">
-        <title>Profile Page</title>
-        <link rel = "stylesheet" href="css/style.css"></link>
-        <script src="js/script.js" defer></script>
-    </head>
-    <body>
-        
-    </body>
+<html lang="en">
+
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile Page</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- External JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Website header -->
+    <header class="header">
+
+        <!-- Navigation -->
+        <nav class="navbar">
+
+            <!-- Website logo/name -->
+            <a href="#about" class="logo">My Portfolio</a>
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- About section -->
+        <section id="about" class="about-section">
+
+            <div class="about-content">
+
+                <p class="greeting">Namaste!</p>
+
+                <h1 class="main-heading">I am THE.</h1>
+
+                <h2 class="profession">Student</h2>
+
+                <p class="intro-text">
+                    I'm passionate about building beautiful,
+                    responsive, and user-friendly websites.
+                    I enjoy learning new technologies and
+                    turning ideas into reality.
+                </p>
+
+                <!-- Action links -->
+                <div class="about-buttons">
+                    <a href="#projects" class="button">
+                        View My Work
+                    </a>
+
+                    <a href="#contact" class="button">
+                        Contact Me
+                    </a>
+                </div>
+
+                <!-- Social links -->
+                <div class="social-links">
+                    <a href="https://github.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:your@email.com">
+                        Email
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills" class="skills-section">
+
+            <h2 class="section-title">My Skills</h2>
+
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Flutter</li>
+                <li>Dart</li>
+            </ul>
+
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects" class="projects-section">
+
+            <h2 class="section-title">My Projects</h2>
+
+            <article class="project-card">
+                <h3>Swarika</h3>
+
+                <p>
+                    An offline music player built using Flutter.
+                </p>
+
+                <a href="#">View Project</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A personal website showcasing my skills
+                    and projects.
+                </p>
+
+                <a href="#">View Project</a>
+            </article>
+
+        </section>
+
+        <!-- Reviews section -->
+        <section id="reviews" class="reviews-section">
+
+            <h2 class="section-title">Reviews</h2>
+
+            <article class="review-card">
+                <p>
+                    Testimonials and feedback will appear here.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact-section">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Your Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="message">Your Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Write your message"
+                    required
+                ></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Website footer -->
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 My Personal Portfolio.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
 </html>
